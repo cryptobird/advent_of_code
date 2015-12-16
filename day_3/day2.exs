@@ -27,6 +27,6 @@ defmodule Directions do
       "<" -> next(directions, {x-1, y}, [{x-1, y} | record])
     end
   end
-
-
 end
+
+Directions.go("directions.txt")
